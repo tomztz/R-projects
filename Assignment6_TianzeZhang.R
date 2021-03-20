@@ -21,11 +21,10 @@ survey$Exer
 #therefore (3-1)*(4-1)=6
 
 #Question2:
-#All observations must contribute to only one cell.
-#In a 2x2 table, all Expected values must be >5
-#In a larger table, n must be >20, all Expected values must be >1 and
-#no more than 20% of the expected values can be <5.
-
+#Assumptions:
+#   For this test it is assumed all expected values are greater than 1 and no more than 20% are less than 5.
+#   As per usual a simple random sample is presumed.
+#   Each observation is assumed to be independent of one another.
 
 #Question3:
 
@@ -39,5 +38,4 @@ survey$Exer
 #Question5:
 #based on the result "p-value = 0.4828", it is geater than 0.05 the significant level, therefore it
 #is not significant and we do not have enough evidence to accept H1, we fail to reject H0.
-
-
+#therefore, we could conclude there are no relations between the frequency of smoking and the frequency of exercise.
